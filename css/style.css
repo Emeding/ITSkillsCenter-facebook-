@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: rgb(236, 235, 235);
+}
+
+#container1 {
+  margin-top: 250px;
+  margin-left: 150px;
+  position: relative;
+}
+
+.moto {
+  font-size: 26px;
+  margin-top: 20px;
+  font-family: tahoma;
+}
+
+#container2 {
+  position: absolute;
+  top: 250px;
+  left: 750px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-right: 23px;
+  padding-left: 10px;
+}
+
+input {
+  border: 1px solid #dddfe2;
+}
+
+.input li {
+  text-align: center;
+  margin-left: 14px;
+}
+
+input[type="text"] {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  width: 350px;
+  height: 40px;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+input[type="password"] {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  width: 350px;
+  height: 40px;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+input[type="submit"] {
+  margin-bottom: 15px;
+  width: 350px;
+  height: 40px;
+  text-align: center;
+  color: solid black;
+  font-size: 14px;
+  background-color: rgb(0, 119, 255);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+  font-family: tahoma;
+}
+
+.forgot {
+  font-size: 15px;
+  color: rgb(0, 119, 255);
+  margin-top: 7px;
+  margin-bottom: 18px;
+}
+
+.new-account {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.footer {
+  font-size: 14px;
+  margin-top: 26px;
+}
